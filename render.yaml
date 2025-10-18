@@ -1,9 +1,0 @@
-services:
-  - type: worker
-    name: telegraf-pozo-piloto
-    env: docker
-    plan: free
-    autoDeploy: true
-    envVars:
-      - key: INFLUX_TOKEN
-        sync: false   # lo defines en el panel de Render, no en el repo
